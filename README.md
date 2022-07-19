@@ -20,6 +20,6 @@ The goal of this project is to investigate a dataset of "Jeopardy" game using pa
 
 -----------------------
 
-### 1. Python: ["Medical Insurance"](./medical_insurance/medical_insurance.ipynb)
+### 1. Python: ["Medical Insurance"](./python_practice/medical_insurance.ipynb)
 
 The goal of this project is to analyze various attributes within **insurance.csv**, using python, to learn more about the patient information in the file and gain insight into potential use cases for the dataset.   
