@@ -2,11 +2,6 @@ Portfolio Projects
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
-### 5 Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./ml/unsupervised_learning/clustering_masculinity_survey.ipynb)
-
-In this project, we will be investigating the way people think about masculinity by applying the **K-Means++** algorithm to data from  <a href="https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight</a>. FiveThirtyEight is a popular website known for their use of statistical analysis in many of their stories.
-
------------------------
 
 ### 4. NLP: ["Movie Reviews"](./nlp/nlp_portfolio_project.ipynb)
 
