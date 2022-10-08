@@ -74,9 +74,10 @@ def map_to_numbers(survey):
     }
 
     map_orient = {
-        'Gay/Bisexual': 1,
-        'Straight': 2, 
-        'Other': 3,
+        'Straight': 1,
+        'Other': 2,
+        'Gay/Bisexual': 3,
+        
         'No answer': np.nan,
         np.nan:  np.nan 
     }
@@ -94,7 +95,7 @@ def map_to_numbers(survey):
     num_survey[cols_to_map_q4] = survey[cols_to_map_q4].apply(lambda column: column.map(lambda value: map_q4[value]))
     num_survey['q0005'] = survey['q0005'].apply(lambda value: map_q5[value])
     num_survey['q0009'] = survey['q0009'].apply(lambda value: map_q9[value])
-    num_survey['income'] = survey['income'].apply(lambda value: map_income[value])
+    num_survey['Income'] = survey['Income'].apply(lambda value: map_income[value])
     num_survey['race2'] = survey['race2'].apply(lambda value: map_race[value])
     num_survey['educ4'] = survey['educ4'].apply(lambda value: map_educ4[value])
     num_survey['orientation'] = survey['orientation'].apply(lambda value: map_orient[value])
