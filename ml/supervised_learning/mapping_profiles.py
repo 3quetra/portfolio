@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def map_to_numbers(profiles):
     mix_profiles = profiles.copy()
@@ -137,6 +138,12 @@ def map_to_numbers(profiles):
     7: 'hinduism',
     8: 'islam'
 }
+
+    map_orient = {
+        'straight': 1,
+        'bisexual': 2, 
+        'gay': 3
+    }
         
         
     mix_profiles['body_type'] = profiles['body_type'].apply(lambda value: map_body_t[value])
@@ -146,9 +153,11 @@ def map_to_numbers(profiles):
     mix_profiles['offspring'] = profiles['offspring'].apply(lambda value: map_kids[value])
     mix_profiles['education'] = profiles['education'].apply(lambda value: map_edu[value])
     mix_profiles['drugs'] = profiles['drugs'].apply(lambda value: map_drugs[value])
+    mix_profiles['orientation'] = profiles['orientation'].apply(lambda value: map_orient[value])
 
 
-    return mix_profiles, map_body_t, map_diet, map_drinks, map_smoking, map_kids, map_edu, map_drugs, map_relig
+
+    return mix_profiles, map_body_t, map_diet, map_drinks, map_smoking, map_kids, map_edu, map_drugs, map_relig, map_orient
 
 
 def age_to_num(value): 
@@ -172,9 +181,26 @@ def age_to_str(value):
         return '60 and up'
 
 
+def job_to_num(value): 
+    if value == 'student':
+        return 1
+    elif value == 'retired':
+        return 3
+    else:
+        return 2
 
 
 
+
+
+def map_variable_per_column(value):
+    data = {}
+    # Split strings of elements by comma
+    for element in value.split(', '):
+        # Assign each unique element 1 as its coded value
+        data[element] = 1
+    # Return elements as series of column names and their values
+    return pd.Series(data=data)
             
        
        

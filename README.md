@@ -11,7 +11,7 @@ In this project, we will be investigating the way people think about masculinity
 
 ### 5. Supervised Machine Learning (Ensemble Technique): ["OKCupid Dating App"](./ml/supervised_learning/dating_app_profiles_analysis.ipynb)
 
-This project analyzes dating app profiles' data from OKCupid, provided by Codecademy.com. The goal of this project is to find out whether it's possible to predict person's age and religious views via machine learning models, with sufficient accuracy. We are going to evaluate accuracy of different supervised models separately as well as create ensembles and assess resulting accuracy's shifts. 
+The goal of this project is to find out whether it's possible to predict person's age and religious views via machine learning models, with sufficient accuracy, based on dating app profiles' data from OKCupid.  We are going to evaluate accuracy of different supervised models separately as well as create ensembles and assess resulting accuracy's shifts. Dataset is provided by Codecademy.com.
 
 -----------------------
 
