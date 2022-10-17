@@ -124,8 +124,19 @@ def map_to_numbers(profiles):
         'trying to quit': 3,
         'yes': 4, 
     }
-        
+    
        
+    map_relig = {
+    0:'agnosticism',
+    1: 'atheism',
+    2: 'christianity',
+    3: 'other',
+    4: 'catholicism',
+    5: 'buddhism',
+    6: 'judaism',
+    7: 'hinduism',
+    8: 'islam'
+}
         
         
     mix_profiles['body_type'] = profiles['body_type'].apply(lambda value: map_body_t[value])
@@ -137,7 +148,8 @@ def map_to_numbers(profiles):
     mix_profiles['drugs'] = profiles['drugs'].apply(lambda value: map_drugs[value])
 
 
-    return mix_profiles, map_body_t, map_diet, map_drinks, map_smoking, map_kids, map_edu, map_drugs
+    return mix_profiles, map_body_t, map_diet, map_drinks, map_smoking, map_kids, map_edu, map_drugs, map_relig
+
 
 def age_to_num(value): 
     if value < 30:
@@ -150,14 +162,18 @@ def age_to_num(value):
         return 4
             
 def age_to_str(value): 
-    if value < 30:
+    if value == 1:
         return '18-29'
-    elif value < 40:
+    elif value == 2:
         return '30-39'
-    elif value < 60:
+    elif value == 3:
         return '40-59'
-    elif value > 60:
+    elif value == 4:
         return '60 and up'
+
+
+
+
 
             
        
