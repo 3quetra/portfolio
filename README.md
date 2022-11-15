@@ -21,17 +21,17 @@ The goal of this project is to get insight into IMDB movie reviews on different 
 
 -----------------------
 
-### 3. Statistical Analysis and Visualisation: ["Roller Coasters"](./analysis_and_visualisation/roller_coasters/roller_coaster.ipynb)
+### 3. Statistical Analysis and Visualisation: ["Roller Coasters"](./statistics_and_visualisation/roller_coasters/roller_coaster.ipynb)
 The goal of this project is visualizing data covering international roller coaster rankings and statistics.
 
 -----------------------
 
-### 2. pandas aggregation functions: ["Jeopardy Game"](./analysis_and_visualisation/jeopardy_game/jeopardy_project.ipynb)
+### 2. pandas aggregation functions: ["Jeopardy Game"](./statistics_and_visualisation/jeopardy_game/jeopardy_project.ipynb)
 
 The goal of this project is to investigate a dataset of "Jeopardy" game using pandas methods and write several aggregate functions to find some insights. 
 
 -----------------------
 
-### 1. Python: ["Medical Insurance"](./python_practice/medical_insurance.ipynb)
+### 1. Python: ["Medical Insurance"](./python/medical_insurance.ipynb)
 
 The goal of this project is to analyze various attributes within **insurance.csv**, using python, to learn more about the patient information in the file and gain insight into potential use cases for the dataset.   
