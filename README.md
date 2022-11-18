@@ -12,6 +12,8 @@ The goal of this project is getting customer related insights by:
 
 using SQL queries on different Codecademy.com datasets.
 
+-----------------------
+
 ### 6. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./ml/unsupervised_learning/clustering_masculinity_survey.ipynb)
 
 In this project, we will be investigating the way people think about masculinity by applying the **K-Means++** algorithm to data from  <a href="https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight</a>. FiveThirtyEight is a popular website known for their use of statistical analysis in many of their stories.
