@@ -2,6 +2,15 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+### 7 SQL queries (SQLite): ["Marketing Data Analysis"](./sql/marketing_analysis.ipynb)
+
+The goal of this project is getting customer related insights by:
+- applying *usage funnel* marketing model;
+- conducting A/B test;
+- calculating one of the most important marketing metrics - *churn rate*;
+- ascertaining *first- and last-touch attribution* sources; 
+
+using SQL queries on different Codecademy.com datasets.
 
 ### 6. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./ml/unsupervised_learning/clustering_masculinity_survey.ipynb)
 
