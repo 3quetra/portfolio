@@ -2,7 +2,7 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
-### 7 SQL queries (SQLite): ["Marketing Data Analysis"](./sql/marketing_analysis.ipynb)
+### 7. SQL queries (SQLite): ["Marketing Data Analysis"](./sql/marketing_analysis.ipynb)
 
 The goal of this project is getting customer related insights by:
 - applying *usage funnel* marketing model;
