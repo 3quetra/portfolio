@@ -1,3 +1,5 @@
+Resume for upload: https://github.com/3quetra/portfolio/blob/main/Resume_Data_Scientist_Julia_Bukato.pdf
+
 # Portfolio Projects
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
