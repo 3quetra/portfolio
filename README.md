@@ -1,4 +1,5 @@
-Resume for upload: https://github.com/3quetra/portfolio/blob/main/Resume_Data_Scientist_Julia_Bukato.pdf
+Data Scientist CV to download: https://github.com/3quetra/portfolio/blob/main/CVs/Resume_Data_Scientist_Julia_Bukato.pdf
+Project Manager CV to download: https://github.com/3quetra/portfolio/blob/main/CVs/CV_Project_Manager_Julia_Bukato.pdf
 
 # Portfolio Projects
 
