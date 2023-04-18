@@ -1,10 +1,12 @@
-Data Scientist CV to download: https://github.com/3quetra/portfolio/blob/main/CVs/Resume_Data_Scientist_Julia_Bukato.pdf
-
-Project Manager CV to download: https://github.com/3quetra/portfolio/blob/main/CVs/CV_Project_Manager_Julia_Bukato.pdf
-
 # Portfolio Projects
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
+
+### 8. Deep Learning (RNNs & LSTMs): ['Temperature Forecast'](./ml/deep_learning/time_series/temp_prediction.ipynb)
+
+The goal of this project is to compare performance of two deep learning algorithms on time-series data: Tensorflow's stacked layers of Simple Recurrent Neural Network (RNN) and Long-Short-Term Memory Networks (LSTMs), using MAE and RMSE as evaluation metrics.
+
+-----------------------
 
 ### 7. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./ml/unsupervised_learning/clustering_masculinity_survey.ipynb)
 

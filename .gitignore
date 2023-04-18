@@ -2,6 +2,5 @@
 __pycache__
 pickles/
 GoogleNews-vectors-negative300.bin
-deep_learning
 marketing_data_analysis
 *.db
