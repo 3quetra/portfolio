@@ -2,6 +2,13 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+### 9. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./ml/deep_learning/time_series/wids_datathon_2023/eda_temp_prediction.ipynb)
+
+Exploratory Data Analysis (EDA for short) refers to the process of discovering patterns and relationships within a dataset. It is about making sense of the data at hand and getting to know it before modeling or analysis. It is an important step prior to model building and can help us formulate further questions and areas for investigation. Within this project we are going work with the `training_data.csv` and `test_data.csv` provided by partners of [WiDS Datathon 2023](https://www.kaggle.com/competitions/widsdatathon2023/data). 
+
+-----------------------
+
+
 ### 8. Deep Learning (RNNs & LSTMs): ['Temperature Forecast'](./ml/deep_learning/time_series/temp_prediction.ipynb)
 
 The goal of this project is to compare performance of two deep learning algorithms on time-series data: Tensorflow's stacked layers of Simple Recurrent Neural Network (RNN) and Long-Short-Term Memory Networks (LSTMs), using MAE and RMSE as evaluation metrics.
