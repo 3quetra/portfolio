@@ -147,13 +147,13 @@ The goal of this project is to investigate whether there are some correlations b
 
 -----------------------
 
-### 6. Data Transformation: ["Census Data Types Transformation"](./statistics_and_visualization/census_datatypes_transform/census_datatypes_transform.ipynb)
+### 6. Data Transformation: ["Census Data Types Transformation"](./statistics_and_visualisation/census_datatypes_transform/census_datatypes_transform.ipynb)
 
 The goal of this project is to use pandas to clean, organise and prepare recently collected census data for further usage by machine learning algorithms.
 
 -----------------------
 
-### 5. Data Transformation: ["Company Transformation"](./statistics_and_visualization/data_transformation/company_transformation.ipynb)
+### 5. Data Transformation: ["Company Transformation"](./statistics_and_visualisation/data_transformation/company_transformation.ipynb)
 
 The goal of this project is to apply data transformation techniques to better understand the company’s data and help to answer important questions from the management team.
 
