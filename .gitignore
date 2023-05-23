@@ -4,3 +4,9 @@ pickles/
 GoogleNews-vectors-negative300.bin
 marketing_data_analysis
 *.db
+train_data.csv
+test_data.csv
+sample_solution.csv
+translator
+stream.csv
+random_tweets.json
