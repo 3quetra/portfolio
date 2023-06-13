@@ -2,7 +2,7 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
-### 31. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](./ml/deep_learning/time_series/wids_datathon_2023/catboost.ipynb)
+### 31. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](/wids_datathon_2023/catboost.ipynb)
 
 We've done some initial investigation and visualization withing EDA previously and came to the conclusion that the dataset is fairy complicated and there are no obvious clues on how to manually select features without proper domain knowledge. One obvious issue for potential feature selection that we've been able to find is increase of temperatures in the testing set, compared to training set due to climate change. Considering that this issue can cause data drift we are going to try to mitigate this issue using Adversarial Validation. For prediction itself we are going to try using gradient boosting model CatBoost, which is quite resilient to outliers and overfittingand. For feature selection we are going to apply Bayesian optimization strategy.
 
@@ -10,7 +10,7 @@ We've done some initial investigation and visualization withing EDA previously a
 -----------------------
 
 
-### 30. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./ml/deep_learning/time_series/wids_datathon_2023/eda_temp_prediction.ipynb)
+### 30. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./wids_datathon_2023/eda_temp_prediction.ipynb)
 
 Exploratory Data Analysis (EDA for short) refers to the process of discovering patterns and relationships within a dataset. It is about making sense of the data at hand and getting to know it before modeling or analysis. It is an important step prior to model building and can help us formulate further questions and areas for investigation. Within this project we are going work with the `training_data.csv` and `test_data.csv` provided by partners of [WiDS Datathon 2023](https://www.kaggle.com/competitions/widsdatathon2023/data). 
 
