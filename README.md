@@ -4,8 +4,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 ### 31. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](/wids_datathon_2023/catboost.ipynb)
 
-We've done some initial investigation and visualization withing EDA previously and came to the conclusion that the dataset is fairy complicated and there are no obvious clues on how to manually select features without proper domain knowledge. One obvious issue for potential feature selection that we've been able to find is increase of temperatures in the testing set, compared to training set due to climate change. Considering that this issue can cause data drift we are going to try to mitigate this issue using Adversarial Validation. For prediction itself we are going to try using gradient boosting model CatBoost, which is quite resilient to outliers and overfittingand. For feature selection we are going to apply Bayesian optimization strategy.
-
+We've done some initial investigation and visualization withing EDA previously and came to the conclusion that the dataset is fairy complicated and there are no obvious clues on how to manually select features without proper domain knowledge. One obvious issue for potential feature selection that we've been able to find is increase of temperatures in the testing set, compared to training set due to climate change. Considering that this issue can cause data drift we are going to try to mitigate this issue using Adversarial Validation. For prediction itself we are going to try using gradient boosting model CatBoost, which is quite resilient to outliers and overfittingand. For hyperparameter optimisation we are going to use Bayesian Optimizer
 
 -----------------------
 
