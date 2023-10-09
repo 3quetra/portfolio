@@ -32,10 +32,10 @@ def with_nans(dataset):
 
 
 def parse_start_date(df):
-    df['startdate'] =pd.to_datetime(df.startdate) 
-    df['year'] = df.startdate.dt.year
-    df['month'] = df.startdate.dt.month
-    df['day_of_year'] = df.startdate.dt.dayofyear
+    df['Day'] =pd.to_datetime(df.Day) 
+    df['year'] = df.Day.dt.year
+    df['month'] = df.Day.dt.month
+    df['day_of_year'] = df.Day.dt.dayofyear
 
     return df
 
