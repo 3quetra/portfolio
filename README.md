@@ -2,6 +2,21 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+## 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
+
+- Objective: develop land cover classifier trained on satellite images.
+- Method: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
+- Results: `95%` accuracy with `0.03` loss on test data.
+- Optimizations: boost efficiency with gradient clipping, adaptive learning rates, and data augmentation.
+- Dataset: `27,000` labeled images from Sentinel-2 satellite, data obtained via copernicus.eu (EU project).
+- Applications: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
+- Resourses: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
+
+[Here](./Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentaion. 
+
+
+-----------------------
+
 ### 32 EDA (Time-Series Data, Data Scraping) ['Comparative Analysis of Energy Handling in Selected EU Countries'](./statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
 
 Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
