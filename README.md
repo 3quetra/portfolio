@@ -12,7 +12,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - Applications: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
 - Resourses: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
 
-[Here](./Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentaion. 
+[Here](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentaion. 
 
 
 -----------------------
