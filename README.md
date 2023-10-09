@@ -2,6 +2,20 @@
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
+
+- `Objective`: Forecast daily electricity consumption in Sweden for 2022.
+- `Potential Business Impact`: more accurate budgeting and potential cost savings. 
+- `Dataset`: ~2K rows × 8 columns.
+- `Assumption`: Accurate forecast for the following day is available.
+- `Features`: Temperature data (Stockholm, Gothenburg, Lund), Holidays, GWh lags for 7 days.
+- `Source`: Vattenfall - Swedish multinational power company. 
+- `Final Model R^2 Score`: 0.96
+- `Final Model MAE`: 9.94
+
+[Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentaion. 
+
+
 ## 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
 - Objective: develop land cover classifier trained on satellite images.
