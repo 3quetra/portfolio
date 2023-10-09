@@ -15,7 +15,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 [Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentaion. 
 
-
+пше 
 ### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
 - `Objective`: develop land cover classifier trained on satellite images.
