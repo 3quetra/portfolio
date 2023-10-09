@@ -10,21 +10,21 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Assumption`: Accurate forecast for the following day is available.
 - `Features`: Temperature data (Stockholm, Gothenburg, Lund), Holidays, GWh lags for 7 days.
 - `Source`: Vattenfall - Swedish multinational power company. 
-- `Final Model R^2 Score`: 0.96
-- `Final Model MAE`: 9.94
+- `Final Model R^2 Score`: `0.96`
+- `Final Model MAE`: `9.94`
 
 [Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentaion. 
 
 
 ## 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
-- Objective: develop land cover classifier trained on satellite images.
-- Method: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
-- Results: `95%` accuracy with `0.03` loss on test data.
-- Optimizations: boost efficiency with gradient clipping, adaptive learning rates, and data augmentation.
-- Dataset: `27,000` labeled images from Sentinel-2 satellite, data obtained via copernicus.eu (EU project).
-- Applications: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
-- Resourses: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
+- `Objective`: develop land cover classifier trained on satellite images.
+- `Method`: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
+- `Results`: `95%` accuracy with `0.03` loss on test data.
+- `Optimizations`: boost efficiency with gradient clipping, adaptive learning rates, and data augmentation.
+- `Dataset`: `27,000` labeled images from Sentinel-2 satellite, data obtained via copernicus.eu (EU project).
+- `Applications`: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
+- `Resourses`: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
 
 [Here](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentaion. 
 
