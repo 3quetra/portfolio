@@ -31,7 +31,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 -----------------------
 
-### 32 EDA (Time-Series Data, Data Scraping) ['Comparative Analysis of Energy Handling in Selected EU Countries'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
+### 32 EDA (Time-Series Data, Data Scraping) ['EU Energy Generation vs Consumption'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
 
 Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
 
