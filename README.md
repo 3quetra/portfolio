@@ -13,9 +13,8 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Features`: Temperature data (Stockholm, Gothenburg, Lund), Holidays, GWh lags for 7 days.
 - `Source`: Vattenfall - Swedish multinational power company. 
 
-[Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentaion. 
+[Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentation. 
 
-пше 
 ### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
 - `Objective`: develop land cover classifier trained on satellite images.
@@ -26,7 +25,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Applications`: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
 - `Resourses`: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
 
-[Here](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentaion. 
+[Here](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentation. 
 
 
 -----------------------
@@ -35,7 +34,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
 
-The goal of this project is to analyse the energy generation and consumption done by EU nations which have different levels of economic development, sociopolitical structure and influence of religion within the country. Specifically, `we’ll look at data flows to understand whether there are patterns charactarising each nation’s energy handling strategy`. We are going to use free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
+The goal of this project is to analyse the energy generation and consumption done by EU nations which have different levels of economic development, sociopolitical structure and influence of religion within the country. Specifically, `we’ll look at data flows to understand whether there are patterns charactarising eacREh nation’s energy handling strategy`. We are going to use free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
 
 Short project [**presentation**](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf).
 
