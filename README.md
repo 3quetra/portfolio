@@ -34,7 +34,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
 
-The goal of this project is to analyse the energy generation and consumption done by EU nations which have different levels of economic development, sociopolitical structure and influence of religion within the country. Specifically, `we’ll look at data flows to understand whether there are patterns charactarising eacREh nation’s energy handling strategy`. We are going to use free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
+The goal of this project is to analyse the energy generation and consumption done by EU nations which have different levels of economic development, sociopolitical structure and influence of religion within the country. Specifically, `we’ll look at data flows to understand whether there are patterns charactarising each nation’s energy handling strategy`. We are going to use free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
 
 Short project [**presentation**](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf).
 
