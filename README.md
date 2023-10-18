@@ -1,5 +1,7 @@
 # Portfolio Projects
 
+Check my [CV](CV_Data_Scientist_Julia_Bukato.pdf).
+
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
 ### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
