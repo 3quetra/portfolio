@@ -56,49 +56,49 @@ Exploratory Data Analysis (EDA for short) refers to the process of discovering p
 -----------------------
 
 
-### 29. Deep Learning (RNNs & LSTMs): ['Temperature Forecast'](/ml/deep_learning/time_series/temp_prediction.ipynb)
+### 29. Deep Learning (RNNs & LSTMs): ['Temperature Forecast'](./educational_case_studies/ml/deep_learning/time_series/temp_prediction.ipynb)
 
 The goal of this project is to compare performance of two deep learning algorithms on time-series data: Tensorflow's stacked layers of Simple Recurrent Neural Network (RNN) and Long-Short-Term Memory Networks (LSTMs), using MAE and RMSE as evaluation metrics.
 
 -----------------------
 
-### 28. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](/ml/unsupervised_learning/k_means/clustering_masculinity_survey.ipynb)
+### 28. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./educational_case_studies/ml/unsupervised_learning/k_means/masculinity_survey/clustering_masculinity_survey.ipynb)
 
 In this project, we will be investigating the way people think about masculinity by applying the **K-Means++** algorithm to data from  <a href="https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight</a>. FiveThirtyEight is a popular website known for their use of statistical analysis in many of their stories.
 
 -----------------------
 
-### 27. Supervised Machine Learning (Ensemble Technique): ["OKCupid Dating App"](/ml/supervised_learning/ensemble/dating_app_profiles_analysis.ipynb)
+### 27. Supervised Machine Learning (Ensemble Technique): ["OKCupid Dating App"](./educational_case_studies/ml/supervised_learning/ensemble/dating_app_profiles_analysis.ipynb)
 
 The goal of this project is to find out whether it's possible to predict person's age and religious views via machine learning models, with sufficient accuracy, based on dating app profiles' data from OKCupid.  We are going to evaluate accuracy of different supervised models separately as well as create ensembles and assess resulting accuracy's shifts. Dataset is provided by Codecademy.com.
 
 -----------------------
 
-### 26. NLP: ["Movie Reviews"](./nlp/sent_analysis/nlp_portfolio_project.ipynb)
+### 26. NLP: ["Movie Reviews"](./educational_case_studies/nlp/sent_analysis/nlp_portfolio_project.ipynb)
 
 The goal of this project is to get insight into IMDB movie reviews on different layers using various NLP techniques and libraries. A dataset that we are going to use is meant mainly for **binary sentiment classification** and performing this particular type of analysis will, indeed, be our primary goal, but additionally, we'll **use POS tagging and chunking to find commonly used noun and verb phrases** and **find the most common movie topics users wrote about (topic modelling using LDA)**. 
 
 ----------------------
 
-### 25. SQL (Windows Functions): ["Climate Change"](./sql/windows_functions/climate_change.ipynb)
+### 25. SQL (Windows Functions): ["Climate Change"](./educational_case_studies/sql/windows_functions/climate_change.ipynb )
 
 The goal of this project is to practice SQL windows functions, ascertaining different climate change insights within "Global Land and Ocean Temperatures" dataset in the process.
 
 ----------------------
 
-### 24. Unsupervised Learning (K-Means++): ["Handwriting Recognition"](/ml/unsupervised_learning/k_means/k_means_handwriting_rec.ipynb)
+### 24. Unsupervised Learning (K-Means++): ["Handwriting Recognition"](./educational_case_studies/ml/unsupervised_learning/k_means/handwriting_recognition/k_means_handwriting_rec.ipynb)
 
 In this project, we will be using **K-Means++** clustering algorithm in scikit-learn inplementation on sklearn digits dataset to cluster images of handwritten digits.
 
 ----------------------
 
-### 23. Supervised Machine Learning (Ensemble Technique - Random Forest): ["Predicting Income"](./ml/supervised_learning/random_forest/forest_income_project.ipynb)
+### 23. Supervised Machine Learning (Ensemble Technique - Random Forest): ["Predicting Income"](./educational_case_studies/ml/supervised_learning/random_forest/forest_income_project.ipynb)
 
 In this project, we will be using an ensemble machine learning technique - **Random Forest**. We are going to compare its performance with **Dicision Tree** algorithm, on a dataset containing [census information from UCI’s Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Adult/). By using census data with a Random Forest and Dicision Tree, we will try to predict whether a person makes more than $50,000.
 
 ----------------------
 
-### 22. Supervised Machine Learning (Decision Trees): ["Predict Continent and Language"](./ml/supervised_learning/trees/trees_find_flag.ipynb)
+### 22. Supervised Machine Learning (Decision Trees): ["Predict Continent and Language"](./educational_case_studies/ml/supervised_learning/trees/trees_find_flag.ipynb)
 
 In this project, we’ll use **Decision Trees** to predict the continent a country is located on, and its language based on features of its flag and other country's properties. For instance, some colors are good indicators as well as the presence or absence of certain shapes could give one a hint. We’ll explore which features are the best to use and will create several Decision Trees to compare their results. The [**Flags Data Set**](https://archive.ics.uci.edu/ml/datasets/Flags) used in this project is provided by UCI’s Machine Learning Repository.
 
