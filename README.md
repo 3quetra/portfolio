@@ -4,6 +4,14 @@ Check my [CV](CV_Data_Scientist_Julia_Bukato.pdf).
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+### 35 Statistical Analysis and Visualisation [Price Runner](./swedish_companies_real_cases/Price_Runner_data_analysis/eda_price_runner.ipynb)
+
+- `Objective`: Analyze the overall and unit economics of product creation by considering clicks and click revenues for a given set of products. Present the insights as well as the methodology.
+- `3 Datasets`: products, hierarchy, clicks.
+- `Potential Business Impact`: optimize product strategies, enhance marketing efforts, refine resource allocation.
+- `Source`: Price Runner (Sweden).
+- `Results`: The analysis reveals patterns in click distribution, cost. The consistent cost per click contributes to similar patterns in line plots. While there is a strong correlation between clicks and revenue, the age of the product does not exhibit a clear relationship with revenue. The data suggests a growth in clicks over time, with noticeable events like Black Friday impacting sales. The analysis provides valuable insights for understanding user behavior, seasonal trends, and the dynamics of product clicks and revenue.
+
 ### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
 
 - `Objective`: Forecast daily electricity consumption in Sweden for 2022.
