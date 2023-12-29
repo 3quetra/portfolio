@@ -10,7 +10,8 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `3 Datasets`: products, hierarchy, clicks.
 - `Potential Business Impact`: optimize product strategies, enhance marketing efforts, refine resource allocation.
 - `Source`: Price Runner (Sweden).
-- `Results`: The analysis reveals patterns in click distribution, cost. The consistent cost per click contributes to similar patterns in line plots. While there is a strong correlation between clicks and revenue, the age of the product does not exhibit a clear relationship with revenue. The data suggests a growth in clicks over time, with noticeable events like Black Friday impacting sales. The analysis provides valuable insights for understanding user behavior, seasonal trends, and the dynamics of product clicks and revenue.
+- `Results`: The analysis reveals a stable click pattern and correlated cost per click. Product age lacks a clear impact on revenue, but sustained click growth over time is observed, influenced by new product additions and events causing spikes in sales. However, a long-term decline in click numbers is evident.
+
 
 ### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
 
