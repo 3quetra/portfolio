@@ -7,14 +7,16 @@ This repository contains my Portfolio Projects on various data analysis and data
 ### 35 Statistical Analysis and Visualisation [Price Runner](./swedish_companies_real_cases/Price_Runner_data_analysis/eda_price_runner.ipynb)
 
 - `Objective`: Analyze the overall and unit economics of product creation by considering clicks and click revenues for a given set of products. Present the insights as well as the methodology.
-- `3 Datasets`: products, hierarchy, clicks.
 - `Potential Business Impact`: optimize product strategies, enhance marketing efforts, refine resource allocation.
+- `3 Datasets`: products, hierarchy, clicks.
 - `Source`: Price Runner (Sweden).
 - `Results`: The analysis reveals a stable click pattern and correlated cost per click. Product age lacks a clear impact on revenue, but sustained click growth over time is observed, influenced by new product additions and events causing spikes in sales. However, a long-term decline in click numbers is evident.
 
 
+
 ### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
 
+- [Project Presentation](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf)
 - `Objective`: Forecast daily electricity consumption in Sweden for 2022.
 - `Potential Business Impact`: more accurate budgeting and potential cost savings. 
 - `Final Model R^2 Score`: `0.96`
@@ -24,10 +26,11 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Features`: Temperature data (Stockholm, Gothenburg, Lund), Holidays, GWh lags for 7 days.
 - `Source`: Vattenfall - Swedish multinational power company. 
 
-[Here](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf) you can find a short project presentation. 
 
 ### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
+- [Application](https://land-cover.jaryk.xyz/) 
+- [Project presentation](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf). 
 - `Objective`: develop land cover classifier trained on satellite images.
 - `Method`: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
 - `Results`: `95%` accuracy with `0.03` loss on test data.
@@ -36,18 +39,20 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Applications`: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
 - `Resourses`: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
 
-[Here](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf) you can find a short project presentation. 
-
 
 -----------------------
 
 ### 32 EDA (Time-Series Data, Data Scraping) ['EU Energy Generation vs Consumption'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
 
-Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
-
-The goal of this project is to analyse the energy generation and consumption done by EU nations which have different levels of economic development, sociopolitical structure and influence of religion within the country. Specifically, `we’ll look at data flows to understand whether there are patterns charactarising each nation’s energy handling strategy`. We are going to use free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
-
-Short project [**presentation**](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf).
+- [Project presentation](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf)
+- `Objective`: Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
+`Results`: 
+- Sweden: dominated by nuclear and renewables.
+- Poland: transitioning from fossil fuels, imports energy.
+- Germany: balanced fossil and renewables, high volume (~7M MW).
+- Consumption: seasonal with spikes (Sweden in 2019 and in 2015).
+- Generation vs. Consumption: surplus (Sweden, Germany), deficit (Poland)
+`Source`: free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
 
 -----------------------
 
