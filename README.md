@@ -6,6 +6,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 ### 35 Statistical Analysis and Visualisation [Price Runner](./swedish_companies_real_cases/Price_Runner_data_analysis/eda_price_runner.ipynb)
 
+- [Dashboard](https://redash.purpleowling.com/public/dashboards/8LunPkrjwN2NkAuRBmcLHEOG4XhQ09cI3DNNjoXK?org_slug=default) 
 - `Objective`: Analyze the overall and unit economics of product creation by considering clicks and click revenues for a given set of products. Present the insights as well as the methodology.
 - `Potential Business Impact`: optimize product strategies, enhance marketing efforts, refine resource allocation.
 - `3 Datasets`: products, hierarchy, clicks.
@@ -30,7 +31,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 ### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
 - [Application](https://land-cover.jaryk.xyz/) 
-- [Project presentation](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf). 
+- [Project Presentation](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf). 
 - `Objective`: develop land cover classifier trained on satellite images.
 - `Method`: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
 - `Results`: `95%` accuracy with `0.03` loss on test data.
@@ -44,7 +45,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 ### 32 EDA (Time-Series Data, Data Scraping) ['EU Energy Generation vs Consumption'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
 
-- [Project presentation](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf)
+- [Project Presentation](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf)
 - `Objective`: Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
 `Results`: 
 - Sweden: dominated by nuclear and renewables.
