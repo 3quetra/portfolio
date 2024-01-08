@@ -30,7 +30,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 ### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
-- [Application](https://land-cover.jaryk.xyz/) 
+- [Application](https://land-cover.purpleowling.com/) 
 - [Project Presentation](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf). 
 - `Objective`: develop land cover classifier trained on satellite images.
 - `Method`: transfer learning with Wide Residual Networks (`50` CNNs) on the Land Cover (EuroSAT) dataset.
