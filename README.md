@@ -1,10 +1,10 @@
 # Portfolio Projects
 
-Check my [CV](CV_Data_Scientist_Julia_Bukato.pdf).
+Check my [CV](CV_Data_Analyst_Julia_Bukato.pdf).
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
-### 35 Statistical Analysis and Visualisation [Price Runner](./swedish_companies_real_cases/Price_Runner_data_analysis/eda_price_runner.ipynb)
+### 35. Statistical Analysis and Visualisation [Price Runner](./swedish_companies_real_cases/Price_Runner_data_analysis/eda_price_runner.ipynb)
 
 - [Dashboard](https://redash.purpleowling.com/public/dashboards/8LunPkrjwN2NkAuRBmcLHEOG4XhQ09cI3DNNjoXK?org_slug=default) 
 - `Objective`: Analyze the overall and unit economics of product creation by considering clicks and click revenues for a given set of products. Present the insights as well as the methodology.
@@ -15,7 +15,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 
 
-### 34 Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
+### 34. Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
 
 - [Project Presentation](./swedish_companies_real_cases/Energy_prediction/Electricity%20Consumption%20Forecast%20(SE).pdf)
 - `Objective`: Forecast daily electricity consumption in Sweden for 2022.
@@ -28,7 +28,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Source`: Vattenfall - Swedish multinational power company. 
 
 
-### 33 Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
+### 33. Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
 - [Application](https://land-cover.purpleowling.com/) 
 - [Project Presentation](./educational_case_studies/ml/deep_learning/land_image_classification/Deep%20Transfer%20Learning%20for%20Land%20Cover%20Classification.pdf). 
@@ -43,38 +43,45 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 -----------------------
 
-### 32 EDA (Time-Series Data, Data Scraping) ['EU Energy Generation vs Consumption'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
+### 32. EDA (Time-Series Data, Data Scraping) ['EU Energy Generation vs Consumption'](./educational_case_studies/statistics_and_visualisation/EU_energy/eda_EU_energy_handl_comp.ipynb)
 
 - [Project Presentation](./educational_case_studies/statistics_and_visualisation/EU_energy/Comparing%20Energy%20Generation%20and%20Consumption%20in%20EU%20Nations.pdf)
 - `Objective`: Comparative Analysis of Energy Generation and Consumption done by **Sweden**, **Germany** and **Poland** during 8 recent years.
-`Results`: 
-- Sweden: dominated by nuclear and renewables.
-- Poland: transitioning from fossil fuels, imports energy.
-- Germany: balanced fossil and renewables, high volume (~7M MW).
-- Consumption: seasonal with spikes (Sweden in 2019 and in 2015).
-- Generation vs. Consumption: surplus (Sweden, Germany), deficit (Poland)
+- `Results`: 
+    - Sweden: dominated by nuclear and renewables.
+    - Poland: transitioning from fossil fuels, imports energy.
+    - Germany: balanced fossil and renewables, high volume (~7M MW).
+    - Consumption: seasonal with spikes (Sweden in 2019 and in 2015).
+    - Generation vs. Consumption: surplus (Sweden, Germany), deficit (Poland)
 `Source`: free public datasets dedicated to energy handling within Europe, scraped from https://transparency.entsoe.eu. 
 
 -----------------------
 
 ### 31. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](/wids_datathon_2023/catboost.ipynb)
 
-We've done some initial investigation and visualization withing EDA previously and came to the conclusion that the dataset is fairy complicated and there are no obvious clues on how to manually select features without proper domain knowledge. One obvious issue for potential feature selection that we've been able to find is increase of temperatures in the testing set, compared to training set due to climate change. Considering that this issue can cause data drift we are going to try to mitigate this issue using Adversarial Validation. For prediction itself we are going to try using gradient boosting model CatBoost, which is quite resilient to outliers and overfitting. For hyperparameter optimisation we are going to use Bayesian Optimizer.
+- `Objective`: Predicting Extreme Weather Events. 
+- `Result`: Using results of EDA, facing challenges like temperature increase in test set due to climate change. Tried to mitigate data drift using Adversarial Validation. Utilized CatBoost for prediction, known for resilience to outliers. Employed Bayesian Optimizer for hyperparameter optimization. 
+- `Source`: The WiDS Datathon 2023. 
 
 -----------------------
 
 
 ### 30. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./wids_datathon_2023/eda_temp_prediction.ipynb)
 
-Exploratory Data Analysis (EDA for short) refers to the process of discovering patterns and relationships within a dataset. It is about making sense of the data at hand and getting to know it before modeling or analysis. It is an important step prior to model building and can help us formulate further questions and areas for investigation. Within this project we are going work with the `training_data.csv` and `test_data.csv` provided by partners of [WiDS Datathon 2023](https://www.kaggle.com/competitions/widsdatathon2023/data). 
+- `Objective`: Conduct Exploratory Data Analysis (EDA) on the training_data.csv and test_data.csv from WiDS Datathon 2023. Discover patterns, relationships, and gain insights into the datasets before further modeling.
+
+- `Result`: EDA insights will guide subsequent modeling and analysis by providing a thorough understanding of the datasets, helping formulate relevant questions, and identifying areas for investigation.
+
+- `Source`: WiDS Datathon 2023.
 
 -----------------------
 
 
 ### 29. Deep Learning (RNNs & LSTMs): ['Temperature Forecast'](./educational_case_studies/ml/deep_learning/time_series/temp_prediction.ipynb)
 
-The goal of this project is to compare performance of two deep learning algorithms on time-series data: Tensorflow's stacked layers of Simple Recurrent Neural Network (RNN) and Long-Short-Term Memory Networks (LSTMs), using MAE and RMSE as evaluation metrics.
+- `Objective`: Compare the performance of two deep learning algorithms, Tensorflow's stacked layers of Simple Recurrent Neural Network (RNN) and Long-Short-Term Memory Networks (LSTMs), on time-series data. Evaluation metrics include Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
+- `Result`: The project aims to provide insights into the relative performance of the mentioned deep learning algorithms on time-series data, facilitating the selection of the most suitable model based on MAE and RMSE metrics.
 -----------------------
 
 ### 28. Unsupervised Machine Learning (K-Means++): ["Masculinity Survey Insights"](./educational_case_studies/ml/unsupervised_learning/k_means/masculinity_survey/clustering_masculinity_survey.ipynb)
