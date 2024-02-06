@@ -13,7 +13,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Source`: Price Runner (Sweden).
 - `Results`: The analysis reveals a stable click pattern and correlated cost per click. Product age lacks a clear impact on revenue, but sustained click growth over time is observed, influenced by new product additions and events causing spikes in sales. However, a long-term decline in click numbers is evident.
 
-
+-----------------------
 
 ### 34. Supervised Machine Learning (Time-Series Data Prediction) [Electricity Consumption Forecast (SE)](./swedish_companies_real_cases/Energy_prediction/energy_prediction.ipynb)
 
@@ -27,6 +27,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Features`: Temperature data (Stockholm, Gothenburg, Lund), Holidays, GWh lags for 7 days.
 - `Source`: Vattenfall - Swedish multinational power company. 
 
+-----------------------
 
 ### 33. Deep Learning (Image Recognition) ['Deep Transfer Learning for Land Cover Classification'](./educational_case_studies/ml/deep_learning/land_image_classification/land_usage_classifier.ipynb)
 
@@ -39,7 +40,6 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Dataset`: `27,000` labeled images from Sentinel-2 satellite, data obtained via copernicus.eu (EU project).
 - `Applications`: maps correction, urban planning, natural catastrophe prediction, precision agriculture.
 - `Resourses`: ["Deep Transfer Learning for Land Use and Land Cover Classification: A Comparative Study"](https://www.mdpi.com/1424-8220/21/23/8083)
-
 
 -----------------------
 
@@ -242,13 +242,10 @@ The goal of this project is to investigate a dataset of "Jeopardy" game using pa
 
 ### 2. SQL queries (SQLite): ["Marketing Data Analysis"](./educational_case_studies/sql/funnels/marketing_analysis.ipynb)
 
-The goal of this project is getting customer related insights by:
-- applying *usage funnel* marketing model;
-- conducting A/B test;
-- calculating one of the most important marketing metrics - *churn rate*;
-- ascertaining *first- and last-touch attribution* sources; 
-
-using SQL queries on different Codecademy.com datasets.
+- `Objective`: Extract customer insights through usage funnel model, A/B tests, churn rate calculation, and first- and last-touch attribution. Optimize marketing strategies.
+- `Sources`: datasets from Warby Parker, Codeflix, and CoolTShirts obtained by Codecademy.com .
+- `Usage Funnels`: Construct Quiz and Home Try-On funnels for Warby Parker, analyzing user journeys and conversion rates.
+- `Results`: A/B Test insights for Warby Parker recommend offering 5 pairs for home try-on. Codeflix should focus on expanding user base in segment 30. Key campaigns, like weekly-newsletter, bring high purchases for CoolTShirts.
 
 -----------------------
 
