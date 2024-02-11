@@ -10,12 +10,10 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Objective`: predict wether breast cancer will be diagnosed within 90 Days.
 - `Challenge`: there is an underling discrimination within diagnosis process. 
 - `Method`: Lasso Regression for feature selection, Mix of classification models for target prediction. TBD
-
 - [Exploratory Data Analysis](./wids_datathon_2024/eda_cancer_data.ipynb).
 - [Feature Selection and Initial Prediction](./wids_datathon_2024/feature_selection.ipynb)
-
 - `Dataset`:  12 K data points. real-world evidence dataset from Health Verity (HV), one of the largest healthcare data ecosystems in the US as well as addition data from U.S. Postal Service™, U.S. Census Bureau, National Weather Service, American Community Survey, the IRS, NASA/Columbia University.
-- `Source`: The WiDS Datathon 2024 (US).  
+- `Source`: The WiDS Datathon 2024 (Worldwide).  
 
 -----------------------
 
@@ -24,7 +22,8 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Objective`: develop a model that can accept a tender notice and suggest automatically the most fitting CPV codes.
 - `Challenge`: create a model that will classify correctly within the hierarchy with 9000 nodes.
 - `Method`: Hierarchy-aware Tree Isomorphism Network for Hierarchical Text Classification combined with EUBERT.
-- `Dataset`: ~ 3 mln. Tender descriptions collected from https://ted.europa.eu/en/
+- `Dataset`: ~ 3 mln. Tender descriptions. 
+- `Source`: https://ted.europa.eu/en/
 - `Applications`: To make it easier to match offer and demand, all public orgs in the EU are required to publish their tender notices with a standard category accompanied by CPV code, defining what they want to buy as precisely as possible. Correct CVP helps potential providers can subscribe to be informed as soon as someone wants something they can sell.
 - `Resourses`: [Hierarchy-aware Tree Isomorphism Network for Hierarchical Text Classification](https://arxiv.org/pdf/2305.15182.pdf)
 
@@ -40,7 +39,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Volume`:  over 2.5 million data points.
 - `Coverage`: multiple nursing homes across U.S. states and some islands.
 - `Period`: May 24, 2020, to August 27, 2023.
-- `Source`:   data.CMS.gov.
+- `Source`: data.CMS.gov (U.S.).
 
 -----------------------
 
@@ -101,7 +100,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 - `Objective`: Predicting Extreme Weather Events. 
 - `Result`: Using results of EDA, facing challenges like temperature increase in test set due to climate change. Tried to mitigate data drift using Adversarial Validation. Utilized CatBoost for prediction, known for resilience to outliers. Employed Bayesian Optimizer for hyperparameter optimization. 
-- `Source`: The WiDS Datathon 2023 (US).  
+- `Source`: The WiDS Datathon 2023 (Worldwide).  
 
 -----------------------
 
@@ -114,7 +113,7 @@ This repository contains my Portfolio Projects on various data analysis and data
     - Humid Subtropical: hot summers, mild winters, rainfall year-round.
     - Temperate Oceanic: mild, humid, cool summers.
     - Hot-Summer Continental: hot summers, cold winters, seasonal rain, potentially exceeding year-round rainfall.
-- `Source`: WiDS Datathon 2023 (US).
+- `Source`: WiDS Datathon 2023 (Worldwide).
 
 -----------------------
 
@@ -124,7 +123,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 - `Result`: EDA insights will guide subsequent modeling and analysis by providing a thorough understanding of the datasets, helping formulate relevant questions, and identifying areas for investigation.
 
-- `Source`: WiDS Datathon 2023 (US).
+- `Source`: WiDS Datathon 2023 (Worldwide).
 
 -----------------------
 
