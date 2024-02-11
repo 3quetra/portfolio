@@ -4,10 +4,25 @@ Check my [CV](CV_Data_Analyst_Julia_Bukato.pdf).
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
+
+### 51. EDA + Supevides Machine Learning: Cancer Diagnosis Prediction (Datathon 2024)
+
+- `Objective`: predict wether breast cancer will be diagnosed within 90 Days.
+- `Challenge`: there is an underling discrimination within diagnosis process. 
+- `Method`: Lasso Regression for feature selection, Mix of classification models for target prediction. TBD
+
+- [Exploratory Data Analysis](./wids_datathon_2024/eda_cancer_data.ipynb).
+- [Feature Selection and Initial Prediction](./wids_datathon_2024/feature_selection.ipynb)
+
+- `Dataset`:  12 K data points. real-world evidence dataset from Health Verity (HV), one of the largest healthcare data ecosystems in the US as well as addition data from U.S. Postal Service™, U.S. Census Bureau, National Weather Service, American Community Survey, the IRS, NASA/Columbia University.
+- `Source`: The WiDS Datathon 2024 (US).  
+
+-----------------------
+
 ### 50. Deep Transfer Learning: [Tender Notice Classification](https://github.com/Ugzuzg/HiTIN)
 
 - `Objective`: develop a model that can accept a tender notice and suggest automatically the most fitting CPV codes.
-- `Challange`: create a model that will classify correctly within the hierarchy with 9000 nodes.
+- `Challenge`: create a model that will classify correctly within the hierarchy with 9000 nodes.
 - `Method`: Hierarchy-aware Tree Isomorphism Network for Hierarchical Text Classification combined with EUBERT.
 - `Dataset`: ~ 3 mln. Tender descriptions collected from https://ted.europa.eu/en/
 - `Applications`: To make it easier to match offer and demand, all public orgs in the EU are required to publish their tender notices with a standard category accompanied by CPV code, defining what they want to buy as precisely as possible. Correct CVP helps potential providers can subscribe to be informed as soon as someone wants something they can sell.
@@ -82,16 +97,16 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 -----------------------
 
-### 44. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](/wids_datathon_2023/catboost.ipynb)
+### 44. Supervised Machine Learning (Gradient Boosting on Decision Trees): ['Predicting Extreme Weather Events using Gradient Boost'](/wids_datathon_2023/catboost.ipynb) (Datathon 2023)
 
 - `Objective`: Predicting Extreme Weather Events. 
 - `Result`: Using results of EDA, facing challenges like temperature increase in test set due to climate change. Tried to mitigate data drift using Adversarial Validation. Utilized CatBoost for prediction, known for resilience to outliers. Employed Bayesian Optimizer for hyperparameter optimization. 
-- `Source`: The WiDS Datathon 2023. 
+- `Source`: The WiDS Datathon 2023 (US).  
 
 -----------------------
 
-### 43. Clusterization (Time-Series Data, K-Means, UMAP): ['Climate Patterns Insight'](./wids_datathon_2023/clustering.ipynb)
-- [Project Presentation](./wids_datathon_2023/Climate%20Patterns%20Insight.pdf)
+### 43. Clusterization (Time-Series Data, K-Means, UMAP): ['Climate Patterns Insight'](./wids_datathon_2023/clustering.ipynb) (Datathon 2023)
+- [Project Presentation](./wids_datathon_2023/Climate%20Patterns%20Insight.pdf) 
 - `Objective`: analyze climate data using K-Means and UMAP clustering for insights.
 - `Results`: 5 Climate patterns, that match Köppen System, have been found: 
     - Cold Semi-Arid: cold winters, limited rain.
@@ -99,17 +114,17 @@ This repository contains my Portfolio Projects on various data analysis and data
     - Humid Subtropical: hot summers, mild winters, rainfall year-round.
     - Temperate Oceanic: mild, humid, cool summers.
     - Hot-Summer Continental: hot summers, cold winters, seasonal rain, potentially exceeding year-round rainfall.
-- `Source`: WiDS Datathon 2023.
+- `Source`: WiDS Datathon 2023 (US).
 
 -----------------------
 
-### 42. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./wids_datathon_2023/eda_temp_prediction.ipynb)
+### 42. EDA (Time-Series Data): ['Exploratory Analysis of Climate Data'](./wids_datathon_2023/eda_temp_prediction.ipynb) (Datathon 2023)
 
 - `Objective`: Conduct Exploratory Data Analysis (EDA) on the training_data.csv and test_data.csv from WiDS Datathon 2023. Discover patterns, relationships, and gain insights into the datasets before further modeling.
 
 - `Result`: EDA insights will guide subsequent modeling and analysis by providing a thorough understanding of the datasets, helping formulate relevant questions, and identifying areas for investigation.
 
-- `Source`: WiDS Datathon 2023.
+- `Source`: WiDS Datathon 2023 (US).
 
 -----------------------
 
