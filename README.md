@@ -313,7 +313,7 @@ The goal of this project is to analyze various attributes within **insurance.csv
 
 ----------------------
 
-### 10. Python Problems: ['Binary Search'](./algorithms_and_data_structures/binary_search.ipynb)
+### 10. Python Problems: ['Binary Search'](./educational_case_studies/algorithms_and_data_structures/binary_search.ipynb)
 The goal of this project is to practice implementation of binary search and solve some problems using it. 
 - Problem: Sharing a chocolate bar fairly among 11 people.
 - Objective: Maximize the sweetness of the piece with minimal sweetness.
@@ -322,7 +322,7 @@ Short [**presentation**](./educational_case_studies/algorithms_and_data_structur
 
 -----------------------
 
-### 9. Python Problems: ['Arrays and strings'](./algorithms_and_data_structures/arrays_and_strings.ipynb)
+### 9. Python Problems: ['Arrays and strings'](./educational_case_studies/algorithms_and_data_structures/arrays_and_strings.ipynb)
 
 "In terms of algorithm problems, arrays (1D) and strings are very similar: they both represent an ordered group of elements. Most algorithm problems will include either an array or string as part of the input, so it's important to be comfortable with the basic operations and to learn the most common patterns". (leetcode.com)
 
