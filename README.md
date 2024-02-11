@@ -21,7 +21,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Objective`: analyze if COVID-19 vax affected elderly mortality.
 - `Results`: T-Statistic: 7.57(SE) > 1% significance threshold - confident null hypothesis rejection. Vaccination appears to have significantly reduced the number of death cases.
 - `Data`: COVID-19 reports from nursing homes to CDC's NHSN COVID-19 Facility Module. 
-- [`Data Collection Methodology`](./educational_case_studies/statistics_and_visualisation/nursing_homes_US/covid-19-nursing-home-methodology.pdf)
+- [Data Collection Methodology](./educational_case_studies/statistics_and_visualisation/nursing_homes_US/covid-19-nursing-home-methodology.pdf)
 - `Volume`:  over 2.5 million data points.
 - `Coverage`: multiple nursing homes across U.S. states and some islands.
 - `Period`: May 24, 2020, to August 27, 2023.
@@ -311,14 +311,14 @@ The goal of this project is to investigate a dataset of "Jeopardy" game using pa
 
 The goal of this project is to analyze various attributes within **insurance.csv**, using python, to learn more about the patient information in the file and gain insight into potential use cases for the dataset.   
 
-
+----------------------
 
 ### 10. Python Problems: ['Binary Search'](./algorithms_and_data_structures/binary_search.ipynb)
 The goal of this project is to practice implementation of binary search and solve some problems using it. 
 - Problem: Sharing a chocolate bar fairly among 11 people.
 - Objective: Maximize the sweetness of the piece with minimal sweetness.
 
-Short [**presentation**](Optimizing%20Chocolate%20Sharing%20with%20Binary%20Search.pdf).
+Short [**presentation**](./educational_case_studies/algorithms_and_data_structures/Optimizing%20Chocolate%20Sharing%20with%20Binary%20Search.pdf).
 
 -----------------------
 
