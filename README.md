@@ -1,6 +1,6 @@
 # Portfolio Projects
 
-Check my [CV](https://www.dropbox.com/scl/fi/y45vi0xzuhp3u410r0ofu/CV_Data_Analyst_Julia_Bukato.pdf?rlkey=zcdj42nvxmwz1zdhyraodx3v0&dl=0). 
+Check my [CV](https://www.dropbox.com/scl/fi/4nrwrso76s7j9x76jnrxh/CV_Data_Analyst_Julia_Bukato.pdf?rlkey=wgn8wqco1mlt2ez451m0zwzbk&dl=0). 
 
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
