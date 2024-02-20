@@ -7,7 +7,7 @@ This repository contains my Portfolio Projects on various data analysis and data
 
 ### 51. EDA + Supevides Machine Learning: Cancer Diagnosis Prediction (Datathon 2024)
 
-- `Objective`: predict wether breast cancer will be diagnosed within 90 Days.
+- `Objective`: predict whether breast cancer will be diagnosed within 90 Days.
 - `Challenge`: there is an underling discrimination within diagnosis process. 
 - `Method`: Lasso Regression for feature selection, Mix of classification models for target prediction. TBD
 - [Exploratory Data Analysis](./wids_datathon_2024/eda_cancer_data.ipynb).
