@@ -11,7 +11,8 @@ This repository contains my Portfolio Projects on various data analysis and data
 - `Challenge`: there is an underling discrimination within diagnosis process. 
 - `Method`: Lasso Regression for feature selection, Mix of classification models for target prediction. TBD
 - [Exploratory Data Analysis](./wids_datathon_2024/eda_cancer_data.ipynb).
-- [Feature Selection and Initial Prediction](./wids_datathon_2024/feature_selection.ipynb)
+- [Feature Selection: Approach I](./wids_datathon_2024/feature_selection.ipynb): devide by logical categories, remove highly correlated features and train with simple models: Random Forest, SVM and KNN. 
+- [Feature Selection: Approach II](./wids_datathon_2024/feature_selection_2.ipynb): devide by locations, remove highly correlated features and train with boosting models: Light GBM, CatBoost, XGBoost, plus one Deep Learning model: TabNet. 
 - `Dataset`:  12 K data points. real-world evidence dataset from Health Verity (HV), one of the largest healthcare data ecosystems in the US as well as addition data from U.S. Postal Service™, U.S. Census Bureau, National Weather Service, American Community Survey, the IRS, NASA/Columbia University.
 - `Source`: The WiDS Datathon 2024 (Worldwide).  
 
