@@ -5,11 +5,11 @@ Check my [CV](https://www.dropbox.com/scl/fi/4nrwrso76s7j9x76jnrxh/CV_Data_Analy
 This repository contains my Portfolio Projects on various data analysis and data science topics — from python practice and data visualisation to machine learning and natural language processing.
 
 
-### 51. EDA + Supevides Machine Learning: Cancer Diagnosis Prediction (Datathon 2024)
+### 51. EDA + Machine Learning: Cancer Diagnosis Prediction (Datathon 2024)
 
 - `Objective`: predict whether breast cancer will be diagnosed within 90 Days.
 - `Challenge`: there is an underling discrimination within diagnosis process. 
-- `Method`: Lasso Regression for feature selection, Mix of classification models for target prediction. TBD
+- `Method`: Lasso Regression for feature selection, mix of classification models for target prediction. TBD
 - [Exploratory Data Analysis](./wids_datathon_2024/eda_cancer_data.ipynb).
 - [Feature Selection: Approach I](./wids_datathon_2024/feature_selection.ipynb): devide by logical categories, remove highly correlated features and train with simple models: Random Forest, SVM and KNN. 
 - [Feature Selection: Approach II](./wids_datathon_2024/feature_selection_2.ipynb): devide by locations, remove highly correlated features and train with boosting models: Light GBM, CatBoost, XGBoost, plus one Deep Learning model: TabNet. 
